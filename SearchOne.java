@@ -56,7 +56,6 @@ public class SearchOne {
         Set<String> result = new HashSet<String>();
         Trie trie = new Trie();
         for(String word: words){
-            //construct trie tree
             trie.insert(word);
         }
         int m=board.length;
